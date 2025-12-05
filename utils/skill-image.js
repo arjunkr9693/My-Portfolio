@@ -83,6 +83,8 @@ import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
 import android from '../app/assets/svg/skills/android.svg'
 import jetpack_compose from '../app/assets/svg/skills/jetpack_compose.svg'
+import spring_boot from '../app/assets/svg/skills/spring_boot.svg'
+import microservices from '../app/assets/svg/skills/microservices.svg'
 
 
 
@@ -257,6 +259,10 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'spring':
+      return spring_boot;
+    case 'microservices':
+      return microservices;
     default:
       break;
   }

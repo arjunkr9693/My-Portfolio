@@ -1,29 +1,37 @@
 export const skillsData = [
+  'Angular',
+  'Spring',
+  'Microservices',
+  'Java',
+  'Typescript',
+  'Javascript',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+  'Docker',
+  'Git',
+
   'Android',
-  'Jetpack',
   'Kotlin',
-  'Python',
-  'Flutter',
+  'Jetpack',
   'Firebase',
-  'C',
+
   'HTML',
   'CSS',
-  'Javascript',
   'React',
   'Tailwind',
-  'MySQL',
-  'Git',
-  'Docker',
-  'Figma',
-  'Firebase',
-  'MaterialUI'
+  'MaterialUI',
+
+  'Python',
+  'C',
+  'C++',
+  'Figma'
 ]
 
 
 
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 
+// Choose your skills from below. Make sure it's in the same format and spelled correctly.
 
 // AVAILABLE SKILLS
 

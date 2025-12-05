@@ -23,9 +23,9 @@ function HeroSection() {
     if (isClient) {
       const section = document.querySelector(sectionId);
       if (section) {
-        section.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start' 
+        section.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
         });
       }
     }
@@ -91,8 +91,8 @@ function HeroSection() {
           </div>
 
           <div className="flex items-center gap-3">
-            <a 
-              href="#contact" 
+            <a
+              href="#contact"
               onClick={(e) => smoothScroll(e, '#contact')}
               className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600"
             >
@@ -137,28 +137,53 @@ function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className="text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Android</span>
+
+                <span className="text-amber-300">Spring Boot</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Jetpack Compose</span>
+
+                <span className="text-amber-300">Microservices</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Kotlin</span>
+
+                <span className="text-amber-300">Java</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React</span>
+
+                <span className="text-amber-300">Angular</span>
                 <span className="text-gray-400">{"', '"}</span>
+
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Web</span>
+
+                <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Python</span>
-                <span className="text-gray-400">{"', '"}</span>
+
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
+
+                {/* --- Android Expertise (kept after FS as requested earlier) --- */}
+
+                <span className="text-amber-300">Android</span>
+                <span className="text-gray-400">{"', '"}</span>
+
+                <span className="text-amber-300">Jetpack Compose</span>
+                <span className="text-gray-400">{"', '"}</span>
+
+                <span className="text-amber-300">Kotlin</span>
+                <span className="text-gray-400">{"', '"}</span>
+
+                {/* --- Additional Skills --- */}
+
+                <span className="text-amber-300">Python</span>
+                <span className="text-gray-400">{"', '"}</span>
+
                 <span className="text-amber-300">C++</span>
+
                 <span className="text-gray-400">{"'],"}</span>
+
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>

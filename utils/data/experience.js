@@ -1,9 +1,9 @@
 export const experiences = [
   {
     id: 1,
-    title: 'B.Tech Student',
-    company: "Punjab Technical University",
-    duration: "(2021 - Present)"
+    title: 'Programmer Analyst Trainee',
+    company: "Cognizant Technology Solutions",
+    duration: "(July 2025 - Present)"
   },
   {
     id: 2,

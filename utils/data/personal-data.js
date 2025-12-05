@@ -2,7 +2,7 @@ export const personalData = {
   name: "Arjun Sahoo",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is ARJUN SAHOO. I am a programmer with experience in Android development using Kotlin and Jetpack Compose. I enjoy working on projects that involve problem-solving and learning new technologies. My skills include developing mobile applications, integrating APIs, and working with databases like Firebase and MySQL. I am open to job opportunities that match my skills and interests",
+  description: "My name is ARJUN SAHOO. I am a Programmer Analyst Trainee at Cognizant, working primarily in full-stack development with Spring Boot, Microservices, and Angular while following strong SDLC practices. I also specialize in Android app development using Kotlin, Jetpack Compose, and MVVM, building real-time mobile solutions. I have solved 500+ DSA problems and exploring AI stuffs.",
   email: 'sahooarjun9693@gmail.com',
   phone: '+918271627510',
   address: 'Kothiya, Samastipur, Bihar, India (848122)',

@@ -1,8 +1,8 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor's Degree",
-    duration: "2021 - Present",
+    title: "B.Tech in Computer Science Engineering",
+    duration: "2021 - 2025",
     institution: "Punjab Technical University, jalandhar, Punjab",
   },
   {
